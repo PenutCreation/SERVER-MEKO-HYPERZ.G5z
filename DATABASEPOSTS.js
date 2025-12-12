@@ -2,7 +2,67 @@
 // Posts are ordered from OLDEST (bottom) to NEWEST (top)
 // System will count from bottom to top for IDs
 const DATABASEPOSTS = [
-
+ {
+    name: "hantic",
+    username: "hantic",
+    datePost: "Dec 13 2025 3:55AM",
+    content: "",
+    iframe: "",
+    video: "",
+    image: "https://i.imgur.com/cOZbqXj_d.webp?maxwidth=520&amp;shape=thumb&amp;fidelity=high",
+    likes: 631,
+    liked: false,
+    topic: "FunnyCulture"
+  },
+ {
+    name: "zig",
+    username: "zig299",
+    datePost: "Dec 13 2025 3:55AM",
+    content: "She's actually being very sweet by German standards",
+    iframe: "",
+    video: "https://i.imgur.com/zRkwCEm.mp4",
+    image: "",
+    likes: 20849,
+    liked: false,
+    topic: "FunnyCulture"
+  },
+ {
+    name: "evon",
+    username: "evon",
+    datePost: "Dec 13 2025 3:50AM",
+    content: "Gwen-Stefani-Right-Wing-Grifter-Conversion-Therapy",
+    iframe: "",
+    video: "https://i.imgur.com/AYlshcy.mp4",
+    image: "",
+    likes: 8527,
+    liked: false,
+    topic: "Podcast"
+  },
+ {
+    name: "evon",
+    username: "evon",
+    datePost: "Dec 13 2025 3:50AM",
+    content: "",
+    iframe: "",
+    video: "https://i.imgur.com/J25T2N8.mp4",
+    image: "",
+    likes: 6274,
+    liked: false,
+    topic: "Cats"
+  },
+ {
+    name: "take",
+    username: "take",
+    datePost: "Dec 13 2025 3:50AM",
+    content: "offf...",
+    iframe: "",
+    video: "https://i.imgur.com/gjjXA5P.mp4",
+    image: "",
+    likes: 72,
+    liked: false,
+    topic: "Podcast"
+  },
+ 
   {
     "name": "Luca Tanaka",
     "username": "Luca Tanaka",
