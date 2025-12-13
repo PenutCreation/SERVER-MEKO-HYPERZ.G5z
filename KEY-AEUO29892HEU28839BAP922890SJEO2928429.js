@@ -5,7 +5,7 @@ function loadDatabaseAndMain() {
     dbScript.onload = () => {
       // Load main.js after database is loaded
       const mainScript = document.createElement("script");
-      mainScript.src =`DATABASELOAD_RULES_API-AE2828U292882AJDKOEID82SJJS28DKI38ASU.js?v=${Date.now()}`;
+      mainScript.src =`https://cdn.jsdelivr.net/gh/PenutCreation/MEKO/ajaxent/DATABASELOAD_RULES_API-AE2828U292882AJDKOEID82SJJS28DKI38ASU.js?v=${Date.now()}`;
       document.body.appendChild(mainScript);
     };
     document.body.appendChild(dbScript);
