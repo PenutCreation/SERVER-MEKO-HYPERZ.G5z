@@ -1,9 +1,9 @@
 function loadDatabaseAndMain() {
     // Load DATABASEPOSTS.js with cache-busting query
     const dbScript = document.createElement("script");
-    dbScript.src = `main.js?v=${Date.now()}`;
+    dbScript.src = `/ajaxent/DATABASELOAD_RULES_API-AE2828U292882AJDKOEID82SJJS28DKI38ASU.js?v=${Date.now()}`;
     dbScript.onload = () => {
-      // Load main.js after databas is loaded
+      // Load main.js after database is loaded
       
     };
     document.body.appendChild(dbScript);
