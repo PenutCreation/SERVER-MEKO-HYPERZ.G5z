@@ -3,7 +3,7 @@ function loadDatabaseAndMain() {
     const dbScript = document.createElement("script");
     dbScript.src = `main.js?v=${Date.now()}`;
     dbScript.onload = () => {
-      // Load main.js after database is loaded
+      // Load main.js after databas is loaded
       
     };
     document.body.appendChild(dbScript);
